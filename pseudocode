@@ -1,0 +1,20 @@
+def square 
+  ask for one side length
+  calculate length times length
+
+def rect 
+  ask for length and width
+  calculate length times width
+
+def circle
+  ask for the radius
+  calculate pi times r^2
+  
+def triangle
+  ask for the base and height
+  caclulate base times height divided by 2
+  
+  
+def main menu
+  input = ask which shape you are calculating
+  run the function
