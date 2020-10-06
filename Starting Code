@@ -1,0 +1,17 @@
+Shape = input("What shape are you calculating?")
+Square,Triangle,rectangle,circle
+
+some code that asks new question based on answer using lots of if statements
+Slength = input("What are the side lengths?")
+Slength * Slength
+
+Base = input("What is the base?")
+Height = input("What is the height?")
+(Base * Height)/2
+
+Rlength = input("What is the length?")
+Width = input(What is the width?")
+Rlength * Width
+
+Radius = input("What is the radius?")
+(3.141592 * Radius)^2
