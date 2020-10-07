@@ -3,30 +3,33 @@ Shape = input("What shape are you calculating?(Use all lowercase)")
 
 #some code that asks new question based on answer using lots of if statements
 
-Slength=input("What are the side lengths?:")
-Slength = int(Slength)
-Sarea=Slength*Slength
-print("the area is",Sarea)
 
 
-Base = input("What is the base?")
-Height = input("What is the height?:")
-Base = int(Base)
-Height = int(Height)
-Tarea=(Base*Height)/2
-print("the area is",Tarea)
+def square():
+  Slength=input("What are the side lengths?:")
+  Slength = int(Slength)
+  Sarea=Slength*Slength
+  print("the area is",Sarea)
 
+def triangle():
+  Base = input("What is the base?")
+  Height = input("What is the height?:")
+  Base = int(Base)
+  Height = int(Height)
+  Tarea=(Base*Height)/2
+  print("the area is",Tarea)
 
-Rlength = input("What is the length?:")
-Width = input("What is the width?:")
-Rlength = int(Rlength)
-Width = int(Width)
-Rarea=Rlength*Width
-print("the area is",Rarea)
+def rectangle():
+  Rlength = input("What is the length?:")
+  Width = input("What is the width?:")
+  Rlength = int(Rlength)
+  Width = int(Width)
+  Rarea=Rlength*Width
+  print("the area is",Rarea)
 
-
-Radius = input("What is the radius?:")
-Radius = int(Radius)
-Carea=3.141592*Radius**2
-print("the area is",Carea)
+def circle():
+  Radius = input("What is the radius?:")
+  Radius = int(Radius)
+  Carea=3.141592*Radius**2
+  print("the area is",Carea)
 
