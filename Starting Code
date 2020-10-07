@@ -13,9 +13,6 @@ def AreaCalculator():
   else:
     print("Invalid number, please try again")
 
-
-
-
 def square():
   Slength=input("What are the side lengths?:")
   Slength = int(Slength)
