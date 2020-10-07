@@ -2,6 +2,7 @@ Shape = input("What shape are you calculating?(Use all lowercase)")
 #square,triangle,rectangle,circle
 
 #some code that asks new question based on answer using lots of if statements
+
 Slength=input("What are the side lengths?:")
 Slength = int(Slength)
 Sarea=Slength*Slength
