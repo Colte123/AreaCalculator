@@ -1,7 +1,18 @@
-Shape = input("What shape are you calculating?(Use all lowercase)")
+def AreaCalculator():
+  Shape = input("What shape are you calculating?(square is 1, triangle is 2, rectangle is 3, circle is 4.)")
+  Shape = int(Shape)
 #square,triangle,rectangle,circle
+  if Shape == 1:
+    print(square())
+  elif Shape == 2:
+    print(triangle())
+  elif Shape == 3:
+    print(rectangle())
+  elif Shape == 4:
+    print(circle())
+  else:
+    print("Invalid number, please try again")
 
-#some code that asks new question based on answer using lots of if statements
 
 
 
