@@ -3,13 +3,13 @@ def AreaCalculator():
   Shape = int(Shape)
 #square,triangle,rectangle,circle
   if Shape == 1:
-    print(square())
+    return square()
   elif Shape == 2:
-    print(triangle())
+    return triangle()
   elif Shape == 3:
-    print(rectangle())
+    return rectangle()
   elif Shape == 4:
-    print(circle())
+    return circle()
   else:
     print("Invalid number, please try again")
 
