@@ -1,9 +1,17 @@
-Shape = input("What shape are you calculating?(Use all lowercase)")
+def AreaCalculator():
+  Shape = input("What shape are you calculating?(square is 1, triangle is 2, rectangle is 3, circle is 4.)")
+  Shape = int(Shape)
 #square,triangle,rectangle,circle
-
-#some code that asks new question based on answer using lots of if statements
-
-
+  if Shape == 1:
+    return square()
+  elif Shape == 2:
+    return triangle()
+  elif Shape == 3:
+    return rectangle()
+  elif Shape == 4:
+    return circle()
+  else:
+    print("Invalid number, please try again")
 
 def square():
   Slength=input("What are the side lengths?:")
@@ -33,3 +41,4 @@ def circle():
   Carea=3.141592*Radius**2
   print("the area is",Carea)
 
+AreaCalculator()
