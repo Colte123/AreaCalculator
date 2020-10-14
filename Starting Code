@@ -1,7 +1,5 @@
 def AreaCalculator():
-  Shape = input("What shape are you calculating?(square is 1, triangle is 2, rectangle is 3, circle is 4.)")
-  Shape = int(Shape)
-#square,triangle,rectangle,circle
+  Shape = int(input("What shape are you calculating?(square is 1, triangle is 2, rectangle is 3, circle is 4.)"))
   if Shape == 1:
     return square()
   elif Shape == 2:
@@ -14,30 +12,24 @@ def AreaCalculator():
     print("Invalid number, please try again")
 
 def square():
-  Slength=input("What are the side lengths?:")
-  Slength = int(Slength)
+  Slength=int(input("What are the side lengths?:"))
   Sarea=Slength*Slength
   print("the area is",Sarea)
 
 def triangle():
-  Base = input("What is the base?")
-  Height = input("What is the height?:")
-  Base = int(Base)
-  Height = int(Height)
+  Base = int(input("What is the base?"))
+  Height = int(input("What is the height?:"))
   Tarea=(Base*Height)/2
   print("the area is",Tarea)
 
 def rectangle():
-  Rlength = input("What is the length?:")
-  Width = input("What is the width?:")
-  Rlength = int(Rlength)
-  Width = int(Width)
+  Rlength = int(input("What is the length?:"))
+  Width = int(input("What is the width?:"))
   Rarea=Rlength*Width
   print("the area is",Rarea)
 
 def circle():
-  Radius = input("What is the radius?:")
-  Radius = int(Radius)
+  Radius = int(input("What is the radius?:"))
   Carea=3.141592*Radius**2
   print("the area is",Carea)
 
