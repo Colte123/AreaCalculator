@@ -20,30 +20,22 @@ def AreaCalculator():
   else:
     print("Invalid number, please try again")
 
-def square():
-  Slength=int(input("What are the side lengths?:"))
-  Sarea=Slength*Slength
+def square(sl):
+  Sarea=sl*sl
   print("the area is",Sarea)
 
-def triangle():
-  Base = int(input("What is the base?"))
-  Height = int(input("What is the height?:"))
-  Tarea=(Base*Height)/2
+def triangle(b, h):
+  Tarea=(b*h)/2
   print("the area is",Tarea)
 
-def rectangle():
-  Rlength = int(input("What is the length?:"))
-  Width = int(input("What is the width?:"))
-  Rarea=Rlength*Width
+def rectangle(rl, w):
+  Rarea=rl*w
   print("the area is",Rarea)
 
-def circle():
-  Radius = int(input("What is the radius?:"))
-  Carea=3.141592*Radius**2
+def circle(r):
+  Carea=3.141592*r**2
   print("the area is",Carea)
 
-Logo()
 
-AreaCalculator()
 
 
